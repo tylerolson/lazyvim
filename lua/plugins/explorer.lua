@@ -3,8 +3,8 @@ return {
   opts = {
     picker = {
       sources = {
-
         explorer = {
+          hidden = true,
           auto_close = true,
         },
       },
