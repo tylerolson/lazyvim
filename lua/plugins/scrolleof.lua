@@ -1,4 +1,10 @@
 return {
   "Aasim-A/scrollEOF.nvim",
-  opts = {},
+  event = { "CursorMoved", "WinScrolled" },
+  opts = {
+    disabled_filetypes = {
+      "snacks_terminal",
+      "snacks_picker_list",
+    },
+  },
 }
